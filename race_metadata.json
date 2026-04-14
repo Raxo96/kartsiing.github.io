@@ -8,6 +8,9 @@
     ],
     "Marzec": [
       "MICHAŁ W."
+    ],
+    "Kwiecien": [
+      "POTULLL"
     ]
   },
   "penalties": {
@@ -16,6 +19,7 @@
       "MIKOŁAJ T.": 5.0
     },
     "Luty": {},
-    "Marzec": {}
+    "Marzec": {},
+    "Kwiecien": {}
   }
 }
