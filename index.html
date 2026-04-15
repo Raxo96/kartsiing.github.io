@@ -121,6 +121,42 @@
         .pos-up { color: #27ae60; }
         .pos-down { color: #e74c3c; }
         .pos-same { color: #95a5a6; }
+        .theme-toggle {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: 2px solid #7f8c8d;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 1.3em;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        .theme-toggle:hover { transform: scale(1.1); }
+
+        body.dark { background-color: #1a1a2e; color: #e0e0e0; }
+        body.dark .container { background-color: #16213e; box-shadow: 0 4px 6px rgba(0,0,0,0.4); }
+        body.dark h1 { color: #e0e0e0; }
+        body.dark .subtitle { color: #a0a0a0; }
+        body.dark .stats { background-color: #0f3460; }
+        body.dark .stat-label { color: #a0a0a0; }
+        body.dark .points-legend { background-color: #0f3460; }
+        body.dark .legend-title { color: #e0e0e0; }
+        body.dark .legend-content { color: #a0a0a0; }
+        body.dark th { background-color: #1a5276; }
+        body.dark td { border-color: #2c3e50; }
+        body.dark tr:nth-child(even) { background-color: #1b2838; }
+        body.dark tr:hover { background-color: #1a3a5c; }
+        body.dark .driver-name { color: #e0e0e0; }
+        body.dark .zero-points { color: #555; }
+        body.dark .footer { color: #777; }
+        body.dark .position-1 { background-color: #b8860b !important; }
+        body.dark .position-2 { background-color: #71797E !important; }
+        body.dark .position-3 { background-color: #8B4513 !important; }
+        body.dark .theme-toggle { border-color: #e0e0e0; }
     </style>
     
     </head>
@@ -403,7 +439,20 @@
     });
     })();
     </script>
-
+    <button class="theme-toggle" onclick="toggleTheme()" title="Przełącz motyw">🌙</button>
+    <script>
+    function toggleTheme() {
+        var b = document.body, btn = document.querySelector('.theme-toggle');
+        b.classList.toggle('dark');
+        var dark = b.classList.contains('dark');
+        btn.textContent = dark ? '☀️' : '🌙';
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
+    }
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark');
+        document.querySelector('.theme-toggle').textContent = '☀️';
+    }
+    </script>
     </body>
     </html>
     
