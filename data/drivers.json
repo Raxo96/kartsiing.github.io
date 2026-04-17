@@ -1,0 +1,935 @@
+{
+  "drivers": [
+    {
+      "name": "HUBERT CH",
+      "stats": {
+        "races_entered": 4,
+        "wins": 1,
+        "podiums": 3,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 67,
+        "avg_finish_position": 2.75,
+        "best_finish": 1,
+        "worst_finish": 4
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 3,
+          "points": 15,
+          "best_lap": 20.402,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 1,
+          "points": 25,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 4,
+          "points": 12,
+          "best_lap": 16.738,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 3,
+          "points": 15,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "POTULLL",
+      "stats": {
+        "races_entered": 4,
+        "wins": 2,
+        "podiums": 2,
+        "fastest_laps": 1,
+        "total_penalties": 0.0,
+        "total_points": 65,
+        "avg_finish_position": 3.75,
+        "best_finish": 1,
+        "worst_finish": 9
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 4,
+          "points": 12,
+          "best_lap": 15.606,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 9,
+          "points": 2,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 1,
+          "points": 25,
+          "best_lap": 16.265,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 1,
+          "points": 26,
+          "best_lap": 13.265,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": true
+        }
+      ]
+    },
+    {
+      "name": "OSKI96",
+      "stats": {
+        "races_entered": 4,
+        "wins": 1,
+        "podiums": 3,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 59,
+        "avg_finish_position": 4.0,
+        "best_finish": 1,
+        "worst_finish": 10
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 1,
+          "points": 25,
+          "best_lap": 16.355,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 3,
+          "points": 15,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 10,
+          "points": 1,
+          "best_lap": 16.666,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 2,
+          "points": 18,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "MICHAŁ W.",
+      "stats": {
+        "races_entered": 4,
+        "wins": 0,
+        "podiums": 2,
+        "fastest_laps": 2,
+        "total_penalties": 0.0,
+        "total_points": 50,
+        "avg_finish_position": 4.5,
+        "best_finish": 2,
+        "worst_finish": 7
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 2,
+          "points": 19,
+          "best_lap": 15.59,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": true
+        },
+        {
+          "race": "Luty",
+          "position": 7,
+          "points": 6,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 2,
+          "points": 19,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": true
+        },
+        {
+          "race": "Kwiecien",
+          "position": 7,
+          "points": 6,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "KORNEL P.",
+      "stats": {
+        "races_entered": 4,
+        "wins": 0,
+        "podiums": 1,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 43,
+        "avg_finish_position": 4.75,
+        "best_finish": 3,
+        "worst_finish": 8
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 8,
+          "points": 4,
+          "best_lap": 20.356,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 4,
+          "points": 12,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 3,
+          "points": 15,
+          "best_lap": 16.43,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 4,
+          "points": 12,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "MIKOŁAJ T.",
+      "stats": {
+        "races_entered": 4,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 5.0,
+        "total_points": 32,
+        "avg_finish_position": 6.0,
+        "best_finish": 5,
+        "worst_finish": 7
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 7,
+          "points": 6,
+          "best_lap": 16.063,
+          "penalty": 5.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 5,
+          "points": 10,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 6,
+          "points": 8,
+          "best_lap": 15.808,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 6,
+          "points": 8,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "JORDAN K",
+      "stats": {
+        "races_entered": 2,
+        "wins": 0,
+        "podiums": 1,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 28,
+        "avg_finish_position": 3.5,
+        "best_finish": 2,
+        "worst_finish": 5
+      },
+      "race_history": [
+        {
+          "race": "Luty",
+          "position": 2,
+          "points": 18,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 5,
+          "points": 10,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "TOMASZ W",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 10,
+        "avg_finish_position": 5.0,
+        "best_finish": 5,
+        "worst_finish": 5
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 5,
+          "points": 10,
+          "best_lap": 16.789,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "RAFAŁ G",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 10,
+        "avg_finish_position": 5.0,
+        "best_finish": 5,
+        "worst_finish": 5
+      },
+      "race_history": [
+        {
+          "race": "Marzec",
+          "position": 5,
+          "points": 10,
+          "best_lap": 16.715,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "ZĄBEK_B",
+      "stats": {
+        "races_entered": 3,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 5.0,
+        "total_points": 10,
+        "avg_finish_position": 9.0,
+        "best_finish": 6,
+        "worst_finish": 12
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 6,
+          "points": 8,
+          "best_lap": 15.887,
+          "penalty": 5.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 12,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 9,
+          "points": 2,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "KAMIL K.",
+      "stats": {
+        "races_entered": 2,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 8,
+        "avg_finish_position": 9.0,
+        "best_finish": 6,
+        "worst_finish": 12
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 12,
+          "points": 0,
+          "best_lap": 20.601,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 6,
+          "points": 8,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "SCOOBANY635",
+      "stats": {
+        "races_entered": 3,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 1,
+        "total_penalties": 0.0,
+        "total_points": 7,
+        "avg_finish_position": 10.0,
+        "best_finish": 8,
+        "worst_finish": 13
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 9,
+          "points": 2,
+          "best_lap": 17.465,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 13,
+          "points": 1,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": true
+        },
+        {
+          "race": "Marzec",
+          "position": 8,
+          "points": 4,
+          "best_lap": 16.648,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "KOWAL123",
+      "stats": {
+        "races_entered": 2,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 6,
+        "avg_finish_position": 9.0,
+        "best_finish": 7,
+        "worst_finish": 11
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 11,
+          "points": 0,
+          "best_lap": 20.488,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Marzec",
+          "position": 7,
+          "points": 6,
+          "best_lap": 16.445,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "GOOOF",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 4,
+        "avg_finish_position": 8.0,
+        "best_finish": 8,
+        "worst_finish": 8
+      },
+      "race_history": [
+        {
+          "race": "Luty",
+          "position": 8,
+          "points": 4,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "M_C",
+      "stats": {
+        "races_entered": 3,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 4,
+        "avg_finish_position": 13.67,
+        "best_finish": 8,
+        "worst_finish": 19
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 19,
+          "points": 0,
+          "best_lap": 16.008,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 14,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 8,
+          "points": 4,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "KLOBUCH",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 2,
+        "avg_finish_position": 9.0,
+        "best_finish": 9,
+        "worst_finish": 9
+      },
+      "race_history": [
+        {
+          "race": "Marzec",
+          "position": 9,
+          "points": 2,
+          "best_lap": 17.516,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "ORZEL_",
+      "stats": {
+        "races_entered": 2,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 2,
+        "avg_finish_position": 10.0,
+        "best_finish": 10,
+        "worst_finish": 10
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 10,
+          "points": 1,
+          "best_lap": 17.121,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 10,
+          "points": 1,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "RAFAŁ M.",
+      "stats": {
+        "races_entered": 3,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 1,
+        "avg_finish_position": 13.33,
+        "best_finish": 10,
+        "worst_finish": 16
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 14,
+          "points": 0,
+          "best_lap": 16.386,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 16,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 10,
+          "points": 1,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "MICHAŁ B.",
+      "stats": {
+        "races_entered": 3,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 13.33,
+        "best_finish": 12,
+        "worst_finish": 15
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 13,
+          "points": 0,
+          "best_lap": 21.011,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 15,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 12,
+          "points": 0,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "GRZEGORZ T.",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 16.0,
+        "best_finish": 16,
+        "worst_finish": 16
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 16,
+          "points": 0,
+          "best_lap": 20.61,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "ADAMWOL",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 15.0,
+        "best_finish": 15,
+        "worst_finish": 15
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 15,
+          "points": 0,
+          "best_lap": 17.406,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "W PIOTR",
+      "stats": {
+        "races_entered": 2,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 14.0,
+        "best_finish": 11,
+        "worst_finish": 17
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 17,
+          "points": 0,
+          "best_lap": 21.356,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Kwiecien",
+          "position": 11,
+          "points": 0,
+          "best_lap": 15.492,
+          "penalty": 0.0,
+          "final": "A",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "TOMASZ K.",
+      "stats": {
+        "races_entered": 2,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 14.5,
+        "best_finish": 11,
+        "worst_finish": 18
+      },
+      "race_history": [
+        {
+          "race": "Styczen",
+          "position": 18,
+          "points": 0,
+          "best_lap": 17.496,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        },
+        {
+          "race": "Luty",
+          "position": 11,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "MAALGOSIA",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 18.0,
+        "best_finish": 18,
+        "worst_finish": 18
+      },
+      "race_history": [
+        {
+          "race": "Luty",
+          "position": 18,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "MICHAŁ G.",
+      "stats": {
+        "races_entered": 1,
+        "wins": 0,
+        "podiums": 0,
+        "fastest_laps": 0,
+        "total_penalties": 0.0,
+        "total_points": 0,
+        "avg_finish_position": 17.0,
+        "best_finish": 17,
+        "worst_finish": 17
+      },
+      "race_history": [
+        {
+          "race": "Luty",
+          "position": 17,
+          "points": 0,
+          "best_lap": null,
+          "penalty": 0.0,
+          "final": "B",
+          "has_fastest_lap": false
+        }
+      ]
+    }
+  ]
+}

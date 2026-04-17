@@ -1,0 +1,287 @@
+{
+  "generated_at": "2026-04-17T14:30:28.256321",
+  "season": 2026,
+  "races": [
+    "Styczen",
+    "Luty",
+    "Marzec",
+    "Kwiecien"
+  ],
+  "standings": [
+    {
+      "position": 1,
+      "driver": "HUBERT CH",
+      "total_points": 67,
+      "race_points": {
+        "Styczen": 15,
+        "Luty": 25,
+        "Marzec": 12,
+        "Kwiecien": 15
+      }
+    },
+    {
+      "position": 2,
+      "driver": "POTULLL",
+      "total_points": 65,
+      "race_points": {
+        "Styczen": 12,
+        "Luty": 2,
+        "Marzec": 25,
+        "Kwiecien": 26
+      }
+    },
+    {
+      "position": 3,
+      "driver": "OSKI96",
+      "total_points": 59,
+      "race_points": {
+        "Styczen": 25,
+        "Luty": 15,
+        "Marzec": 1,
+        "Kwiecien": 18
+      }
+    },
+    {
+      "position": 4,
+      "driver": "MICHAŁ W.",
+      "total_points": 50,
+      "race_points": {
+        "Styczen": 19,
+        "Luty": 6,
+        "Marzec": 19,
+        "Kwiecien": 6
+      }
+    },
+    {
+      "position": 5,
+      "driver": "KORNEL P.",
+      "total_points": 43,
+      "race_points": {
+        "Styczen": 4,
+        "Luty": 12,
+        "Marzec": 15,
+        "Kwiecien": 12
+      }
+    },
+    {
+      "position": 6,
+      "driver": "MIKOŁAJ T.",
+      "total_points": 32,
+      "race_points": {
+        "Styczen": 6,
+        "Luty": 10,
+        "Marzec": 8,
+        "Kwiecien": 8
+      }
+    },
+    {
+      "position": 7,
+      "driver": "JORDAN K",
+      "total_points": 28,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 18,
+        "Marzec": 0,
+        "Kwiecien": 10
+      }
+    },
+    {
+      "position": 8,
+      "driver": "TOMASZ W",
+      "total_points": 10,
+      "race_points": {
+        "Styczen": 10,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 9,
+      "driver": "RAFAŁ G",
+      "total_points": 10,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 10,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 10,
+      "driver": "ZĄBEK_B",
+      "total_points": 10,
+      "race_points": {
+        "Styczen": 8,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 2
+      }
+    },
+    {
+      "position": 11,
+      "driver": "KAMIL K.",
+      "total_points": 8,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 8,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 12,
+      "driver": "SCOOBANY635",
+      "total_points": 7,
+      "race_points": {
+        "Styczen": 2,
+        "Luty": 1,
+        "Marzec": 4,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 13,
+      "driver": "KOWAL123",
+      "total_points": 6,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 6,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 14,
+      "driver": "GOOOF",
+      "total_points": 4,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 4,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 15,
+      "driver": "M_C",
+      "total_points": 4,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 4
+      }
+    },
+    {
+      "position": 16,
+      "driver": "KLOBUCH",
+      "total_points": 2,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 2,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 17,
+      "driver": "ORZEL_",
+      "total_points": 2,
+      "race_points": {
+        "Styczen": 1,
+        "Luty": 1,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 18,
+      "driver": "RAFAŁ M.",
+      "total_points": 1,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 1
+      }
+    },
+    {
+      "position": 19,
+      "driver": "MICHAŁ B.",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 20,
+      "driver": "GRZEGORZ T.",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 21,
+      "driver": "ADAMWOL",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 22,
+      "driver": "W PIOTR",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 23,
+      "driver": "TOMASZ K.",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 24,
+      "driver": "MAALGOSIA",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    },
+    {
+      "position": 25,
+      "driver": "MICHAŁ G.",
+      "total_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0
+      }
+    }
+  ]
+}

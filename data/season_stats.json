@@ -1,0 +1,164 @@
+{
+  "total_races": 4,
+  "total_drivers": 25,
+  "leader": "HUBERT CH",
+  "leader_points": 67,
+  "points_table": {
+    "1": 25,
+    "2": 18,
+    "3": 15,
+    "4": 12,
+    "5": 10,
+    "6": 8,
+    "7": 6,
+    "8": 4,
+    "9": 2,
+    "10": 1
+  },
+  "fastest_lap_bonus": 1,
+  "points_gaps": [
+    {
+      "position": 1,
+      "driver": "HUBERT CH",
+      "gap_to_leader": 0
+    },
+    {
+      "position": 2,
+      "driver": "POTULLL",
+      "gap_to_leader": 2
+    },
+    {
+      "position": 3,
+      "driver": "OSKI96",
+      "gap_to_leader": 8
+    },
+    {
+      "position": 4,
+      "driver": "MICHAŁ W.",
+      "gap_to_leader": 17
+    },
+    {
+      "position": 5,
+      "driver": "KORNEL P.",
+      "gap_to_leader": 24
+    },
+    {
+      "position": 6,
+      "driver": "MIKOŁAJ T.",
+      "gap_to_leader": 35
+    },
+    {
+      "position": 7,
+      "driver": "JORDAN K",
+      "gap_to_leader": 39
+    },
+    {
+      "position": 8,
+      "driver": "TOMASZ W",
+      "gap_to_leader": 57
+    },
+    {
+      "position": 9,
+      "driver": "RAFAŁ G",
+      "gap_to_leader": 57
+    },
+    {
+      "position": 10,
+      "driver": "ZĄBEK_B",
+      "gap_to_leader": 57
+    },
+    {
+      "position": 11,
+      "driver": "KAMIL K.",
+      "gap_to_leader": 59
+    },
+    {
+      "position": 12,
+      "driver": "SCOOBANY635",
+      "gap_to_leader": 60
+    },
+    {
+      "position": 13,
+      "driver": "KOWAL123",
+      "gap_to_leader": 61
+    },
+    {
+      "position": 14,
+      "driver": "GOOOF",
+      "gap_to_leader": 63
+    },
+    {
+      "position": 15,
+      "driver": "M_C",
+      "gap_to_leader": 63
+    },
+    {
+      "position": 16,
+      "driver": "KLOBUCH",
+      "gap_to_leader": 65
+    },
+    {
+      "position": 17,
+      "driver": "ORZEL_",
+      "gap_to_leader": 65
+    },
+    {
+      "position": 18,
+      "driver": "RAFAŁ M.",
+      "gap_to_leader": 66
+    },
+    {
+      "position": 19,
+      "driver": "MICHAŁ B.",
+      "gap_to_leader": 67
+    },
+    {
+      "position": 20,
+      "driver": "GRZEGORZ T.",
+      "gap_to_leader": 67
+    },
+    {
+      "position": 21,
+      "driver": "ADAMWOL",
+      "gap_to_leader": 67
+    },
+    {
+      "position": 22,
+      "driver": "W PIOTR",
+      "gap_to_leader": 67
+    },
+    {
+      "position": 23,
+      "driver": "TOMASZ K.",
+      "gap_to_leader": 67
+    },
+    {
+      "position": 24,
+      "driver": "MAALGOSIA",
+      "gap_to_leader": 67
+    },
+    {
+      "position": 25,
+      "driver": "MICHAŁ G.",
+      "gap_to_leader": 67
+    }
+  ],
+  "records": {
+    "most_wins": {
+      "driver": "POTULLL",
+      "wins": 2
+    },
+    "most_podiums": {
+      "driver": "OSKI96",
+      "podiums": 3
+    },
+    "most_fastest_laps": {
+      "driver": "MICHAŁ W.",
+      "count": 2
+    },
+    "most_penalties": {
+      "driver": "ZĄBEK_B",
+      "penalty_seconds": 5.0
+    }
+  }
+}
