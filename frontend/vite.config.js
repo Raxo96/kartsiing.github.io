@@ -22,7 +22,7 @@ export default defineConfig({
       },
     },
   ],
-  base: '/',
+  base: '/kartsiing.github.io/',
   build: {
     outDir: '../dist',
     emptyOutDir: true,

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script>
+      const base = '/kartsiing.github.io';
+      const path = window.location.pathname.replace(base, '') || '/';
+      sessionStorage.setItem('spa_redirect', path + window.location.search);
+      window.location.replace(base + '/');
+    </script>
+  </head>
+</html>
