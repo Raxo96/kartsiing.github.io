@@ -2,5 +2,11 @@
   "Luty": {
     "fastest_lap_driver": "SCOOBANY635",
     "note": "Lap times not recorded in CSV; winner determined manually"
+  },
+  "Maj_a": {
+    "note": "Przejazd A (22.05.2026). R\u00f3wnorz\u0119dny wys\u0107ig A — pe\u0142na pula punkt\u00f3w. Fastest lap: GRZEGORZ T. (24.933)."
+  },
+  "Maj_b": {
+    "note": "Przejazd B (22.05.2026). R\u00f3wnorz\u0119dny wys\u0107ig A — pe\u0142na pula punkt\u00f3w. Fastest lap: OSKI96 (24.509). Kara Kornela P. juz wliczona w czas."
   }
 }

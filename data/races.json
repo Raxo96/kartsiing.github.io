@@ -735,6 +735,236 @@
           "has_fastest_lap": false
         }
       ]
+    },
+    {
+      "name": "Maj_a",
+      "fastest_lap_driver": "GRZEGORZ T.",
+      "fastest_lap_time": 24.933,
+      "results": [
+        {
+          "position": 1,
+          "driver": "W PIOTR",
+          "kart": "43",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.936,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 25,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 2,
+          "driver": "GRZEGORZ T.",
+          "kart": "55",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.933,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 19,
+          "has_fastest_lap": true
+        },
+        {
+          "position": 3,
+          "driver": "TOMASZ K.",
+          "kart": "44",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 25.456,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 15,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 4,
+          "driver": "Remi S.",
+          "kart": "46",
+          "laps": 44,
+          "gap": 0.0,
+          "best_lap": 25.616,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 12,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 5,
+          "driver": "MICHAŁ B.",
+          "kart": "53",
+          "laps": 44,
+          "gap": 0.0,
+          "best_lap": 25.762,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 10,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 6,
+          "driver": "Sebastian R.",
+          "kart": "52",
+          "laps": 43,
+          "gap": 0.0,
+          "best_lap": 25.874,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 8,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 7,
+          "driver": "Adam Kas.",
+          "kart": "52",
+          "laps": 43,
+          "gap": 0.0,
+          "best_lap": 26.409,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 6,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 8,
+          "driver": "Krzysztof Ś.",
+          "kart": "49",
+          "laps": 40,
+          "gap": 0.0,
+          "best_lap": 27.077,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 4,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 9,
+          "driver": "Jowita Z.",
+          "kart": "48",
+          "laps": 37,
+          "gap": 0.0,
+          "best_lap": 28.818,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 2,
+          "has_fastest_lap": false
+        }
+      ]
+    },
+    {
+      "name": "Maj_b",
+      "fastest_lap_driver": "OSKI96",
+      "fastest_lap_time": 24.509,
+      "results": [
+        {
+          "position": 1,
+          "driver": "OSKI96",
+          "kart": "44",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.509,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 26,
+          "has_fastest_lap": true
+        },
+        {
+          "position": 2,
+          "driver": "JORDAN K",
+          "kart": "53",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.646,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 18,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 3,
+          "driver": "HUBERT CH",
+          "kart": "49",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.549,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 15,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 4,
+          "driver": "POTULLL",
+          "kart": "55",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.521,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 12,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 5,
+          "driver": "KORNEL P.",
+          "kart": "52",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.695,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 10,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 6,
+          "driver": "ZĄBEK_B",
+          "kart": "43",
+          "laps": 45,
+          "gap": 0.0,
+          "best_lap": 24.761,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 8,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 7,
+          "driver": "MIKOŁAJ T.",
+          "kart": "41",
+          "laps": 44,
+          "gap": 0.0,
+          "best_lap": 25.004,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 6,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 8,
+          "driver": "M_C",
+          "kart": "46",
+          "laps": 43,
+          "gap": 0.0,
+          "best_lap": 24.824,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 4,
+          "has_fastest_lap": false
+        },
+        {
+          "position": 9,
+          "driver": "RAFAŁ M.",
+          "kart": "48",
+          "laps": 43,
+          "gap": 0.0,
+          "best_lap": 25.878,
+          "penalty": 0.0,
+          "final": "A",
+          "points": 2,
+          "has_fastest_lap": false
+        }
+      ]
     }
   ]
 }
