@@ -3,32 +3,29 @@ import pandas as pd
 from pathlib import Path
 from src.points import calculate_race_points
 
-# Chronological order for Polish month filenames (no diacritics, lower-case).
-# Values are (month, sub_index) tuples to support multiple races per month.
-MONTH_ORDER: dict[str, tuple[int, int]] = {
-    'styczen':     (1,  0),
-    'luty':        (2,  0),
-    'marzec':      (3,  0),
-    'kwiecien':    (4,  0),
-    'maj':         (5,  0),
-    'maj_a':       (5,  1),
-    'maj_b':       (5,  2),
-    'czerwiec':    (6,  0),
-    'lipiec':      (7,  0),
-    'sierpien':    (8,  0),
-    'wrzesien':    (9,  0),
-    'pazdziernik': (10, 0),
-    'listopad':    (11, 0),
-    'grudzien':    (12, 0),
+# Chronological order for Polish month filenames (no diacritics, lower-case)
+MONTH_ORDER: dict[str, int] = {
+    'styczen':    1,
+    'luty':       2,
+    'marzec':     3,
+    'kwiecien':   4,
+    'maj':        5,
+    'czerwiec':   6,
+    'lipiec':     7,
+    'sierpien':   8,
+    'wrzesien':   9,
+    'pazdziernik': 10,
+    'listopad':   11,
+    'grudzien':   12,
 }
 
 _DIACRITICS = str.maketrans('ąęóśźżćńł', 'aeoszzncl')
 
 
-def race_sort_key(csv_path: Path) -> tuple[int, int]:
-    """Return chronological (month, sub_index) for a race CSV path; unknown names sort last."""
+def race_sort_key(csv_path: Path) -> int:
+    """Return chronological index for a race CSV path; unknown names sort last."""
     stem = csv_path.stem.lower().translate(_DIACRITICS)
-    return MONTH_ORDER.get(stem, (99, 0))
+    return MONTH_ORDER.get(stem, 99)
 
 
 def assign_positions(raw_drivers: list[dict]) -> list[dict]:
