@@ -98,11 +98,19 @@ def parse_race_csv(csv_file: str | Path) -> list[dict]:
         if cols['kart'] and pd.notna(row[cols['kart']]):
             kart = str(row[cols['kart']]).strip()
 
+        csv_rank = None
+        if cols['position'] and pd.notna(row[cols['position']]):
+            try:
+                csv_rank = int(row[cols['position']])
+            except (ValueError, TypeError):
+                pass
+
         drivers.append({
             'driver':    driver,
             'kart':      kart,
             'final':     final,
             'final_pos': final_pos,
+            'csv_rank':  csv_rank,
             'laps':      laps,
             'gap':       gap,
             'penalty':   penalty,

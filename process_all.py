@@ -9,7 +9,7 @@ import pandas as pd
 from pathlib import Path
 
 from src.loader import parse_race_csv
-from src.classification import build_race_results, update_classification, save_classification, race_sort_key
+from src.classification import build_race_results, update_classification, save_classification, race_sort_key, race_name_sort_key
 from src.stats import compute_driver_stats, compute_season_stats
 from src.exporter import export_standings, export_races, export_drivers, export_season_stats
 
@@ -52,6 +52,15 @@ def main() -> None:
 
     save_classification(df, CLASSIFICATION_CSV)
     print(f"\nClassification saved: {CLASSIFICATION_CSV}")
+
+    # Sort race columns chronologically before exporting
+    race_cols = sorted(
+        [c for c in df.columns if c not in ('driver', 'total_points', 'position')],
+        key=race_name_sort_key,
+    )
+    race_results_by_race = {k: race_results_by_race[k] for k in race_cols if k in race_results_by_race}
+    fixed_cols = ['position', 'driver'] + race_cols + ['total_points']
+    df = df[[c for c in fixed_cols if c in df.columns]]
 
     all_drivers = df['driver'].tolist()
     stats_by_driver = {d: compute_driver_stats(d, race_results_by_race) for d in all_drivers}

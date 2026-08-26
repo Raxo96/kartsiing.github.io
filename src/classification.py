@@ -25,7 +25,16 @@ _DIACRITICS = str.maketrans('ąęóśźżćńł', 'aeoszzncl')
 def race_sort_key(csv_path: Path) -> int:
     """Return chronological index for a race CSV path; unknown names sort last."""
     stem = csv_path.stem.lower().translate(_DIACRITICS)
-    return MONTH_ORDER.get(stem, 99)
+    base = stem.split('_')[0]
+    return MONTH_ORDER.get(base, MONTH_ORDER.get(stem, 99))
+
+
+def race_name_sort_key(race_name: str) -> int:
+    """Return chronological index for a race name string (e.g. 'Sierpien', 'Maj_a'); unknown names sort last."""
+    stem = race_name.lower().translate(_DIACRITICS)
+    # strip suffixes like _a, _b, _1, _2 to match base month name
+    base = stem.split('_')[0]
+    return MONTH_ORDER.get(base, MONTH_ORDER.get(stem, 99))
 
 
 def assign_positions(raw_drivers: list[dict]) -> list[dict]:
@@ -45,6 +54,8 @@ def assign_positions(raw_drivers: list[dict]) -> list[dict]:
         group = [d for d in raw_drivers if d['final'] == f]
         if any(d.get('final_pos') is not None for d in group):
             group = sorted(group, key=lambda d: d['final_pos'] if d['final_pos'] is not None else 9999)
+        elif any(d.get('csv_rank') is not None for d in group):
+            group = sorted(group, key=lambda d: d['csv_rank'] if d['csv_rank'] is not None else 9999)
         else:
             group = sorted(group, key=lambda d: (-d['laps'], d['gap'] + d['penalty']))
         ordered.extend(group)
