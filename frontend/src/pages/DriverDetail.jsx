@@ -73,6 +73,12 @@ export default function DriverDetail() {
         <StatCard label="Avg Position"  value={stats.avg_finish_position ?? '—'} />
         <StatCard label="Best Finish"   value={stats.best_finish  != null ? `P${stats.best_finish}`  : '—'} />
         <StatCard label="Penalties"     value={`${stats.total_penalties}s`} accent={stats.total_penalties > 0 ? 'text-red-400' : ''} />
+        <StatCard
+          label="Consistency"
+          value={stats.consistency_score != null ? `σ ${stats.consistency_score}` : '—'}
+          sub="position std dev · lower is better"
+          accent={stats.consistency_score != null && stats.consistency_score <= 2 ? 'text-sky-400' : ''}
+        />
       </div>
 
       {/* Race history table */}

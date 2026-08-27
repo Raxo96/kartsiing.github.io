@@ -35,6 +35,7 @@ export default function Standings() {
     return [...filtered].sort((a, b) => {
       let av, bv
       if (sort.key === 'position')     { av = a.position;     bv = b.position }
+      else if (sort.key === 'top8')    { av = a.top8_points;  bv = b.top8_points }
       else if (sort.key === 'total')   { av = a.total_points; bv = b.total_points }
       else                             { av = a.race_points[sort.key] ?? 0; bv = b.race_points[sort.key] ?? 0 }
       return sort.dir === 'asc' ? av - bv : bv - av
@@ -65,8 +66,56 @@ export default function Standings() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard label="Races"   value={stats?.total_races}   />
         <StatCard label="Drivers" value={stats?.total_drivers} />
-        <StatCard label="Leader"  value={stats?.leader}        sub={`${stats?.leader_points} pts`} accent="text-yellow-400" />
+        <StatCard label="Leader"  value={stats?.leader} sub={`${stats?.leader_points} pts (Top 8)`} accent="text-yellow-400" />
         <StatCard label="Most Wins" value={stats?.records.most_wins.driver} sub={`${stats?.records.most_wins.wins} win${stats?.records.most_wins.wins !== 1 ? 's' : ''}`} />
+      </div>
+
+      {/* Extra records */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        {stats?.records.track_veteran?.driver && (() => {
+          const v = stats.records.track_veteran
+          const hours = (v.track_time_s / 3600).toFixed(2)
+          return (
+            <StatCard
+              label="Track Veteran"
+              value={v.driver}
+              sub={`${v.laps} laps · ${hours}h est. track time`}
+              accent="text-emerald-400"
+            />
+          )
+        })()}
+        {stats?.records.top_gainer?.driver && (
+          <StatCard
+            label="Top Gainer"
+            value={stats.records.top_gainer.driver}
+            sub={`▲ ${stats.records.top_gainer.positions_gained} pos · was P${stats.records.top_gainer.worst_rank}, now P${stats.records.top_gainer.current_rank}`}
+            accent="text-green-400"
+          />
+        )}
+        {stats?.records.top_loser?.driver && (
+          <StatCard
+            label="Top Loser"
+            value={stats.records.top_loser.driver}
+            sub={`▼ ${stats.records.top_loser.positions_lost} pos · was P${stats.records.top_loser.best_rank}, now P${stats.records.top_loser.current_rank}`}
+            accent="text-red-400"
+          />
+        )}
+        {stats?.records.most_consistent?.driver && (
+          <StatCard
+            label="Most Consistent"
+            value={stats.records.most_consistent.driver}
+            sub={`σ ${stats.records.most_consistent.stdev} position std dev`}
+            accent="text-sky-400"
+          />
+        )}
+        {stats?.records.most_penalties?.driver && stats.records.most_penalties.penalty_seconds > 0 && (
+          <StatCard
+            label="Penalty King"
+            value={stats.records.most_penalties.driver}
+            sub={`${stats.records.most_penalties.penalty_seconds}s total penalties`}
+            accent="text-orange-400"
+          />
+        )}
       </div>
 
       {/* Filter */}
@@ -94,7 +143,8 @@ export default function Standings() {
               <Th label="Pos"    sortKey="position" className="text-center w-12" />
               <Th label="Driver" sortKey="driver"   className="text-left" />
               {races.map(r => <Th key={r} label={r} sortKey={r} className="text-center" />)}
-              <Th label="Total"  sortKey="total"    className="text-center font-bold" />
+              <Th label="Total"   sortKey="total"    className="text-center" />
+              <Th label="Top 8"   sortKey="top8"     className="text-center font-bold text-yellow-400" />
             </tr>
           </thead>
           <tbody>
@@ -123,23 +173,25 @@ export default function Standings() {
 
                   {/* Per-race points */}
                   {races.map(race => {
-                    const pts  = row.race_points[race] ?? 0
-                    const meta = raceMeta[race]?.[row.driver]
-                    const isFL  = meta?.has_fastest_lap
+                    const pts    = row.race_points[race] ?? 0
+                    const meta   = raceMeta[race]?.[row.driver]
+                    const isFL   = meta?.has_fastest_lap
                     const hasPen = meta?.penalty > 0
+                    const dropped = pts > 0 && row.counted_races && !row.counted_races.includes(race)
                     return (
                       <td key={race} className="px-3 py-2.5 text-center">
                         {pts === 0 ? (
                           <span className="text-zinc-600">—</span>
                         ) : (
                           <span className={`inline-flex items-center gap-1 font-mono
-                            ${isFL  ? 'text-purple-400' : ''}
-                            ${hasPen ? 'text-red-400'    : ''}
-                            ${!isFL && !hasPen ? 'text-zinc-200' : ''}`}
+                            ${dropped  ? 'text-zinc-600 line-through'  : ''}
+                            ${!dropped && isFL   ? 'text-purple-400' : ''}
+                            ${!dropped && hasPen ? 'text-red-400'    : ''}
+                            ${!dropped && !isFL && !hasPen ? 'text-zinc-200' : ''}`}
                           >
                             {pts}
-                            {isFL   && <span title="Fastest lap" className="text-purple-400 text-xs">⚡</span>}
-                            {hasPen && <span title={`+${meta.penalty}s penalty`} className="text-red-400 text-xs">⚠</span>}
+                            {!dropped && isFL   && <span title="Fastest lap" className="text-purple-400 text-xs">⚡</span>}
+                            {!dropped && hasPen && <span title={`+${meta.penalty}s penalty`} className="text-red-400 text-xs">⚠</span>}
                           </span>
                         )}
                       </td>
@@ -147,8 +199,13 @@ export default function Standings() {
                   })}
 
                   {/* Total */}
-                  <td className="px-3 py-2.5 text-center font-bold text-zinc-100">
+                  <td className="px-3 py-2.5 text-center text-zinc-500">
                     {row.total_points}
+                  </td>
+
+                  {/* Top 8 */}
+                  <td className="px-3 py-2.5 text-center font-bold text-yellow-400">
+                    {row.top8_points}
                   </td>
                 </tr>
               )
@@ -162,6 +219,7 @@ export default function Standings() {
         <span><span className="text-purple-400">⚡</span> Fastest lap bonus (+1 pt)</span>
         <span><span className="text-red-400">⚠</span> Time penalty applied</span>
         <span><span className="text-yellow-400">▲</span>/<span className="text-red-400">▼</span> Position change vs previous race</span>
+        <span><span className="text-zinc-600 line-through">pts</span> Dropped result (not in top 8)</span>
       </div>
     </div>
   )

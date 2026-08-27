@@ -16,11 +16,17 @@ def export_standings(df, race_results_by_race: dict, output_path: str = 'data/st
     standings = []
     for _, row in df.iterrows():
         driver = row['driver']
+        race_pts = {race: int(row.get(race, 0) or 0) for race in races}
+        # Mark which races count toward top-8 championship score
+        sorted_races = sorted(race_pts.items(), key=lambda x: -x[1])
+        counted = {r for r, _ in sorted_races[:8]}
         standings.append({
             'position':     int(row['position']),
             'driver':       driver,
             'total_points': int(row['total_points']),
-            'race_points':  {race: int(row.get(race, 0) or 0) for race in races},
+            'top8_points':  int(row.get('top8_points', row['total_points'])),
+            'race_points':  race_pts,
+            'counted_races': list(counted),
         })
     _write_json({
         'generated_at': datetime.now().isoformat(),

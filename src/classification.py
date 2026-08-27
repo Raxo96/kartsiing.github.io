@@ -37,6 +37,14 @@ def race_name_sort_key(race_name: str) -> int:
     return MONTH_ORDER.get(base, MONTH_ORDER.get(stem, 99))
 
 
+TOP_N_RACES = 8
+
+
+def _top_n_points(race_points: list[int], n: int = TOP_N_RACES) -> int:
+    """Sum of the N highest race scores."""
+    return sum(sorted(race_points, reverse=True)[:n])
+
+
 def assign_positions(raw_drivers: list[dict]) -> list[dict]:
     """
     Sort into overall finishing positions: Final A before B before C (etc.),
@@ -74,9 +82,12 @@ def build_race_results(
 def load_classification(csv_path: str) -> pd.DataFrame:
     """Load existing classification CSV with normalized (English) column names."""
     if not Path(csv_path).exists():
-        return pd.DataFrame(columns=['driver', 'total_points'])
+        return pd.DataFrame(columns=['driver', 'total_points', 'top8_points'])
     df = pd.read_csv(csv_path, encoding='utf-8-sig')
-    df = df.rename(columns={'Zawodnik': 'driver', 'Suma_Punktów': 'total_points', 'Pozycja': 'position'})
+    df = df.rename(columns={
+        'Zawodnik': 'driver', 'Suma_Punktów': 'total_points',
+        'Top8_Punktów': 'top8_points', 'Pozycja': 'position',
+    })
     return df.drop(columns=['position'], errors='ignore')
 
 
@@ -98,14 +109,20 @@ def update_classification(df: pd.DataFrame, race_results: list[dict], race_name:
                     new_row[col] = 0
             df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
-    race_columns = [c for c in df.columns if c not in ('driver', 'total_points', 'position')]
+    race_columns = [c for c in df.columns if c not in ('driver', 'total_points', 'top8_points', 'position')]
     df['total_points'] = df[race_columns].sum(axis=1)
-    df = df.sort_values('total_points', ascending=False).reset_index(drop=True)
+    df['top8_points']  = df[race_columns].apply(
+        lambda row: _top_n_points(row.tolist()), axis=1
+    )
+    df = df.sort_values(['top8_points', 'total_points'], ascending=False).reset_index(drop=True)
     df.insert(0, 'position', range(1, len(df) + 1))
     return df
 
 
 def save_classification(df: pd.DataFrame, csv_path: str) -> None:
     """Write classification back to CSV using original Polish column names."""
-    out = df.rename(columns={'driver': 'Zawodnik', 'total_points': 'Suma_Punktów', 'position': 'Pozycja'})
+    out = df.rename(columns={
+        'driver': 'Zawodnik', 'total_points': 'Suma_Punktów',
+        'top8_points': 'Top8_Punktów', 'position': 'Pozycja',
+    })
     out.to_csv(csv_path, index=False, encoding='utf-8-sig')

@@ -1,287 +1,962 @@
 {
-  "generated_at": "2026-04-17T14:30:28.256321",
+  "generated_at": "2026-08-27T09:32:24.733743",
   "season": 2026,
   "races": [
     "Styczen",
     "Luty",
     "Marzec",
-    "Kwiecien"
+    "Kwiecien",
+    "Maj_a",
+    "Maj_b",
+    "Czerwiec",
+    "Lipiec",
+    "Sierpien"
   ],
   "standings": [
     {
       "position": 1,
-      "driver": "HUBERT CH",
-      "total_points": 67,
-      "race_points": {
-        "Styczen": 15,
-        "Luty": 25,
-        "Marzec": 12,
-        "Kwiecien": 15
-      }
-    },
-    {
-      "position": 2,
       "driver": "POTULLL",
-      "total_points": 65,
+      "total_points": 140,
+      "top8_points": 140,
       "race_points": {
         "Styczen": 12,
         "Luty": 2,
         "Marzec": 25,
-        "Kwiecien": 26
-      }
+        "Kwiecien": 26,
+        "Maj_a": 0,
+        "Maj_b": 12,
+        "Czerwiec": 26,
+        "Lipiec": 12,
+        "Sierpien": 25
+      },
+      "counted_races": [
+        "Czerwiec",
+        "Styczen",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 2,
+      "driver": "HUBERT CH",
+      "total_points": 124,
+      "top8_points": 124,
+      "race_points": {
+        "Styczen": 15,
+        "Luty": 25,
+        "Marzec": 12,
+        "Kwiecien": 15,
+        "Maj_a": 0,
+        "Maj_b": 15,
+        "Czerwiec": 12,
+        "Lipiec": 18,
+        "Sierpien": 12
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
     },
     {
       "position": 3,
       "driver": "OSKI96",
-      "total_points": 59,
+      "total_points": 109,
+      "top8_points": 109,
       "race_points": {
         "Styczen": 25,
         "Luty": 15,
         "Marzec": 1,
-        "Kwiecien": 18
-      }
+        "Kwiecien": 18,
+        "Maj_a": 0,
+        "Maj_b": 26,
+        "Czerwiec": 8,
+        "Lipiec": 0,
+        "Sierpien": 16
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
     },
     {
       "position": 4,
-      "driver": "MICHAŁ W.",
-      "total_points": 50,
-      "race_points": {
-        "Styczen": 19,
-        "Luty": 6,
-        "Marzec": 19,
-        "Kwiecien": 6
-      }
-    },
-    {
-      "position": 5,
       "driver": "KORNEL P.",
-      "total_points": 43,
+      "total_points": 97,
+      "top8_points": 97,
       "race_points": {
         "Styczen": 4,
         "Luty": 12,
         "Marzec": 15,
-        "Kwiecien": 12
-      }
+        "Kwiecien": 12,
+        "Maj_a": 0,
+        "Maj_b": 10,
+        "Czerwiec": 18,
+        "Lipiec": 26,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Czerwiec",
+        "Lipiec",
+        "Styczen",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 6,
-      "driver": "MIKOŁAJ T.",
-      "total_points": 32,
-      "race_points": {
-        "Styczen": 6,
-        "Luty": 10,
-        "Marzec": 8,
-        "Kwiecien": 8
-      }
-    },
-    {
-      "position": 7,
+      "position": 5,
       "driver": "JORDAN K",
-      "total_points": 28,
+      "total_points": 86,
+      "top8_points": 86,
       "race_points": {
         "Styczen": 0,
         "Luty": 18,
         "Marzec": 0,
-        "Kwiecien": 10
-      }
+        "Kwiecien": 10,
+        "Maj_a": 0,
+        "Maj_b": 18,
+        "Czerwiec": 15,
+        "Lipiec": 15,
+        "Sierpien": 10
+      },
+      "counted_races": [
+        "Czerwiec",
+        "Lipiec",
+        "Styczen",
+        "Kwiecien",
+        "Luty",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
     },
     {
-      "position": 8,
-      "driver": "TOMASZ W",
-      "total_points": 10,
+      "position": 6,
+      "driver": "MICHAŁ W.",
+      "total_points": 56,
+      "top8_points": 56,
+      "race_points": {
+        "Styczen": 19,
+        "Luty": 6,
+        "Marzec": 19,
+        "Kwiecien": 6,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 6
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 7,
+      "driver": "ZĄBEK_B",
+      "total_points": 52,
+      "top8_points": 52,
       "race_points": {
         "Styczen": 10,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 2,
+        "Maj_a": 0,
+        "Maj_b": 8,
+        "Czerwiec": 6,
+        "Lipiec": 8,
+        "Sierpien": 18
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 8,
+      "driver": "MIKOŁAJ T.",
+      "total_points": 39,
+      "top8_points": 39,
+      "race_points": {
+        "Styczen": 6,
+        "Luty": 10,
+        "Marzec": 8,
+        "Kwiecien": 8,
+        "Maj_a": 0,
+        "Maj_b": 6,
+        "Czerwiec": 1,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
       "position": 9,
-      "driver": "RAFAŁ G",
-      "total_points": 10,
+      "driver": "W PIOTR",
+      "total_points": 26,
+      "top8_points": 26,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
-        "Marzec": 10,
-        "Kwiecien": 0
-      }
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 25,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 1,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
       "position": 10,
-      "driver": "ZĄBEK_B",
-      "total_points": 10,
+      "driver": "M_C",
+      "total_points": 26,
+      "top8_points": 26,
       "race_points": {
-        "Styczen": 8,
+        "Styczen": 0,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 2
-      }
+        "Kwiecien": 4,
+        "Maj_a": 0,
+        "Maj_b": 4,
+        "Czerwiec": 0,
+        "Lipiec": 10,
+        "Sierpien": 8
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
     },
     {
       "position": 11,
-      "driver": "KAMIL K.",
-      "total_points": 8,
+      "driver": "GRZEGORZ T.",
+      "total_points": 23,
+      "top8_points": 23,
       "race_points": {
         "Styczen": 0,
-        "Luty": 8,
+        "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 19,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 4,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
       "position": 12,
       "driver": "SCOOBANY635",
-      "total_points": 7,
+      "total_points": 17,
+      "top8_points": 17,
       "race_points": {
         "Styczen": 2,
         "Luty": 1,
         "Marzec": 4,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 10,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Czerwiec",
+        "Styczen",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
       "position": 13,
+      "driver": "TOMASZ K.",
+      "total_points": 15,
+      "top8_points": 15,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 15,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 14,
+      "driver": "KAMIL K.",
+      "total_points": 15,
+      "top8_points": 15,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 8,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 6,
+        "Sierpien": 1
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 15,
+      "driver": "Remi S.",
+      "total_points": 12,
+      "top8_points": 12,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 12,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 16,
+      "driver": "MICHAŁ B.",
+      "total_points": 12,
+      "top8_points": 12,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 10,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 2,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Lipiec",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 17,
+      "driver": "RAFAŁ G",
+      "total_points": 10,
+      "top8_points": 10,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 10,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 18,
+      "driver": "TOMASZ W",
+      "total_points": 8,
+      "top8_points": 8,
+      "race_points": {
+        "Styczen": 8,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 19,
+      "driver": "Sebastian R.",
+      "total_points": 8,
+      "top8_points": 8,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 8,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 20,
       "driver": "KOWAL123",
-      "total_points": 6,
+      "total_points": 8,
+      "top8_points": 8,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
         "Marzec": 6,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 2,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Czerwiec",
+        "Styczen",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 14,
+      "position": 21,
+      "driver": "Adam Kas.",
+      "total_points": 6,
+      "top8_points": 6,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 6,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 22,
       "driver": "GOOOF",
       "total_points": 4,
+      "top8_points": 4,
       "race_points": {
         "Styczen": 0,
         "Luty": 4,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 15,
-      "driver": "M_C",
+      "position": 23,
+      "driver": "Krzysztof Ś.",
       "total_points": 4,
+      "top8_points": 4,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 4
-      }
+        "Kwiecien": 0,
+        "Maj_a": 4,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 16,
-      "driver": "KLOBUCH",
-      "total_points": 2,
+      "position": 24,
+      "driver": "MACIEJ K",
+      "total_points": 4,
+      "top8_points": 4,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
-        "Marzec": 2,
-        "Kwiecien": 0
-      }
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 4,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Czerwiec",
+        "Styczen",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 17,
+      "position": 25,
+      "driver": "MACIEJ K.",
+      "total_points": 4,
+      "top8_points": 4,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 4
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 26,
+      "driver": "RAFAŁ M.",
+      "total_points": 3,
+      "top8_points": 3,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 1,
+        "Maj_a": 0,
+        "Maj_b": 2,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 27,
       "driver": "ORZEL_",
       "total_points": 2,
+      "top8_points": 2,
       "race_points": {
         "Styczen": 1,
         "Luty": 1,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 18,
-      "driver": "RAFAŁ M.",
-      "total_points": 1,
+      "position": 28,
+      "driver": "KLOBUCH",
+      "total_points": 2,
+      "top8_points": 2,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 2,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 29,
+      "driver": "Jowita Z.",
+      "total_points": 2,
+      "top8_points": 2,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 1
-      }
+        "Kwiecien": 0,
+        "Maj_a": 2,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 19,
-      "driver": "MICHAŁ B.",
-      "total_points": 0,
+      "position": 30,
+      "driver": "KRZYSZTOF B.",
+      "total_points": 2,
+      "top8_points": 2,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 2
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Sierpien",
+        "Marzec"
+      ]
     },
     {
-      "position": 20,
-      "driver": "GRZEGORZ T.",
-      "total_points": 0,
-      "race_points": {
-        "Styczen": 0,
-        "Luty": 0,
-        "Marzec": 0,
-        "Kwiecien": 0
-      }
-    },
-    {
-      "position": 21,
+      "position": 31,
       "driver": "ADAMWOL",
       "total_points": 0,
+      "top8_points": 0,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     },
     {
-      "position": 22,
-      "driver": "W PIOTR",
-      "total_points": 0,
-      "race_points": {
-        "Styczen": 0,
-        "Luty": 0,
-        "Marzec": 0,
-        "Kwiecien": 0
-      }
-    },
-    {
-      "position": 23,
-      "driver": "TOMASZ K.",
-      "total_points": 0,
-      "race_points": {
-        "Styczen": 0,
-        "Luty": 0,
-        "Marzec": 0,
-        "Kwiecien": 0
-      }
-    },
-    {
-      "position": 24,
-      "driver": "MAALGOSIA",
-      "total_points": 0,
-      "race_points": {
-        "Styczen": 0,
-        "Luty": 0,
-        "Marzec": 0,
-        "Kwiecien": 0
-      }
-    },
-    {
-      "position": 25,
+      "position": 32,
       "driver": "MICHAŁ G.",
       "total_points": 0,
+      "top8_points": 0,
       "race_points": {
         "Styczen": 0,
         "Luty": 0,
         "Marzec": 0,
-        "Kwiecien": 0
-      }
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 33,
+      "driver": "MAALGOSIA",
+      "total_points": 0,
+      "top8_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 34,
+      "driver": "MEJX",
+      "total_points": 0,
+      "top8_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
+    },
+    {
+      "position": 35,
+      "driver": "CZARNY MIKI",
+      "total_points": 0,
+      "top8_points": 0,
+      "race_points": {
+        "Styczen": 0,
+        "Luty": 0,
+        "Marzec": 0,
+        "Kwiecien": 0,
+        "Maj_a": 0,
+        "Maj_b": 0,
+        "Czerwiec": 0,
+        "Lipiec": 0,
+        "Sierpien": 0
+      },
+      "counted_races": [
+        "Styczen",
+        "Czerwiec",
+        "Lipiec",
+        "Kwiecien",
+        "Luty",
+        "Maj_a",
+        "Maj_b",
+        "Marzec"
+      ]
     }
   ]
 }
