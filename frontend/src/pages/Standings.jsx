@@ -116,6 +116,22 @@ export default function Standings() {
             accent="text-orange-400"
           />
         )}
+        {stats?.records.most_fastest_laps?.driver && (
+          <StatCard
+            label="Most Fastest Laps"
+            value={stats.records.most_fastest_laps.driver}
+            sub={`${stats.records.most_fastest_laps.count} fastest lap${stats.records.most_fastest_laps.count !== 1 ? 's' : ''}`}
+            accent="text-purple-400"
+          />
+        )}
+        {stats?.records.most_podiums?.driver && (
+          <StatCard
+            label="Most Podiums"
+            value={stats.records.most_podiums.driver}
+            sub={`${stats.records.most_podiums.podiums} podium${stats.records.most_podiums.podiums !== 1 ? 's' : ''}`}
+            accent="text-amber-400"
+          />
+        )}
       </div>
 
       {/* Filter */}
